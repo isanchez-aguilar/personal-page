@@ -3,10 +3,8 @@ node_js:
   - node
 warnings_are_errors: false
 install:
+  - npm install -g firebase-tools
   - npm install
 script:
-  - npm run build  
-deploy:
-  provider: firebase
-  token:
-    secure: $FIREBASE_TOKEN
+  - npm run build
+  - firebase deploy  
