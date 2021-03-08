@@ -1,13 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import styles from "./app.module.scss";
-
-const App = () => (
-  <h1 className={ styles.app }>
-    Isaac Sanchez Aguilar!! 
-  </h1>
-);
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
