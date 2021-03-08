@@ -5,7 +5,7 @@ import styles from "./app.module.scss";
 
 const App = () => (
   <h1 className={ styles.app }>
-    My React and TypeScript App!!
+    Isaac Sanchez Aguilar 
   </h1>
 );
 
