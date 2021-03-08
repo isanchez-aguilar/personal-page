@@ -1,6 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+warnings_are_errors: false
+install:
+  - npm install
+script:
+  - npm run build
 deploy:
   provider: firebase
+  skip_cleanup: true
   token:
-    secure: "1//0fXG6xMnKLTKtCgYIARAAGA8SNwF-L9IrqltsuQd1SO2DVF_D3ysSLm2NNQm9E1eUqTeoRx-4xe6FGm_ITBSxQV8aF7bLEt4P-kA"
-  project: "personal-page"
-  message: "Building and deploying personal page."
+    secure: "1//0fkmQlDQoU3JDCgYIARAAGA8SNwF-L9Irvddhfj1h3qIKyWtPCCF0MT2vPCq9mIUiWKtP7yGzkMtuE6VGblJRTIM3EhLTDNv_Iz4"
