@@ -5,8 +5,7 @@ import styles from "./app.module.scss";
 
 const App = () => (
   <h1 className={ styles.app }>
-    My React and TypeScript App!!{" "}
-    {new Date().toLocaleDateString()}
+    My React and TypeScript App!!
   </h1>
 );
 
