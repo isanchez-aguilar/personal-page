@@ -1,0 +1,6 @@
+deploy:
+  provider: firebase
+  token:
+    secure: "1//0fXG6xMnKLTKtCgYIARAAGA8SNwF-L9IrqltsuQd1SO2DVF_D3ysSLm2NNQm9E1eUqTeoRx-4xe6FGm_ITBSxQV8aF7bLEt4P-kA"
+  project: "personal-page"
+  message: "Building and deploying personal page."
