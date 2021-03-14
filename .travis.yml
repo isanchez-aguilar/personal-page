@@ -7,9 +7,6 @@ install:
 script:
   - npm run build
 after_success:
-  branches:
-    only:
-      - master
   - echo "Deploying..."
   - npm install firebase-tools -g
   - firebase deploy --token $FIREBASE_TOKEN
