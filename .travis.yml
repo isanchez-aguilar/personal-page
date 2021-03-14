@@ -6,7 +6,9 @@ install:
   - npm install
 script:
   - npm run build
-deploy:
-  provider: firebase
-  token: FIREBASE_TOKEN 
-  edge: true # opt in to dpl v2
+after_success:
+  branches:
+    only:
+      - master
+  - npm install firebase-tools -g
+  - firebase deploy --only hosting --token "$FIREBASE_TOKEN"
