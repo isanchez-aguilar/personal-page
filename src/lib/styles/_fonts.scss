@@ -4,6 +4,18 @@
 }
 
 @font-face {
+  font-family: 'Neuton';
+  font-weight: normal;
+  src: url('/public/assets/fonts/Neuton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Neuton';
+  font-weight: bold;
+  src: url('/public/assets/fonts/Neuton-Bold.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Roboto Slab';
   src: url('/public/assets/fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
 }

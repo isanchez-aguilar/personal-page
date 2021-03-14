@@ -1,0 +1,30 @@
+@use 'src/lib/styles/colors';
+@use 'src/lib/styles/fonts';
+
+.navbar {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: colors.$gray3;
+  font-family: 'Neuton';
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    cursor: pointer;
+    
+    span {
+      min-width: 80%;
+      display: inline-block;
+    }
+  }
+}
+
+.activeOption {
+  color: black;
+  border-bottom: colors.$red 4px solid;
+  font-weight: bold;
+}

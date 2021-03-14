@@ -15,7 +15,8 @@
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/prop-types": "off",
+    "react/prop-types": "error",
+    "@typescript-eslint/explicit-function-return-type": "error",
     "quotes": ["error", "double"],
     "eol-last": ["error", "always"],
     "object-curly-spacing": ["error", "always"],
@@ -30,7 +31,8 @@
     "max-len": ["error", { "code": 80, "tabWidth": 2 }],
     "no-unreachable": "error",
     "semi": ["error", "always"],
-    "no-unused-vars": "error"
+    "no-unused-vars": "error",
+    "comma-dangle": ["error", "always-multiline"]
   },
   "settings": {
     "react": {
