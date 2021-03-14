@@ -7,4 +7,7 @@ install:
   - npm install
 script:
   - npm run build
-  - firebase deploy  
+deploy:
+  provider: firebase
+  token: FIREBASE_TOKEN 
+  edge: true # opt in to dpl v2
