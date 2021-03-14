@@ -1,0 +1,21 @@
+@use 'src/lib/styles/colors' as colors;
+
+.header {
+  margin-top: 2rem;
+  text-align: center;
+
+  :where(span, h1) {
+    display: inline;
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+
+  h1 {
+    color: colors.$gray3;
+  }
+}
+
+.myNameIs {
+  color: colors.$gray2;
+  margin-right: 1ch;
+}
