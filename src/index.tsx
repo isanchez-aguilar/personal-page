@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./app";
+import WebApp from "./webApp";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <WebApp />
   </React.StrictMode>,
   document.getElementById("app"),
 );
