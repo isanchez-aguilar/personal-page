@@ -1,9 +1,11 @@
 import React from "react";
 
+import Header from "../components/header";
+
 const HomePage = (): JSX.Element => {
   return (
     <>
-      <h1>Isaac Sanchez Aguilar</h1>
+      <Header />
     </>
   );
 };

@@ -13,6 +13,12 @@ const config: webpack.Configuration = {
   module: {
     rules: [
       {
+        test: /\.(ttf|woff2)$/,
+        use: {
+          loader: 'url-loader',
+        },
+      },
+      {
         test: /\.(ts|js)x?$/i,
         exclude: /node_modules/,
         use: {

@@ -3,8 +3,10 @@ node_js:
   - node
 warnings_are_errors: false
 install:
-  - npm install -g firebase-tools
   - npm install
 script:
   - npm run build
-  - firebase deploy  
+deploy:
+  provider: firebase
+  token: FIREBASE_TOKEN 
+  edge: true # opt in to dpl v2
