@@ -17,7 +17,20 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
     "quotes": ["error", "double"],
-    "eol-last": ["error", "always"]
+    "eol-last": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "space-before-blocks": "error",
+    "keyword-spacing": ["error", { "before": true }],
+    "curly": ["error", "multi-or-nest"],
+    "brace-style": ["error", "stroustrup", { "allowSingleLine": false }],
+    "max-params": ["error", 4],
+    "max-lines-per-function": ["error", {"max": 20, "skipBlankLines": true}],
+    "max-lines": ["error", {"max": 90, "skipBlankLines": true}],
+    "nonblock-statement-body-position": ["error", "below"],
+    "max-len": ["error", { "code": 80, "tabWidth": 2 }],
+    "no-unreachable": "error",
+    "semi": ["error", "always"],
+    "no-unused-vars": "error"
   },
   "settings": {
     "react": {

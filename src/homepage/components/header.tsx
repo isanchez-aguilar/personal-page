@@ -8,7 +8,7 @@ const Header = (): JSX.Element => {
       <span className={ styles.myNameIs }>My name is</span>
       <h1>Isaac Sanchez Aguilar</h1>
     </header>
-  )
+  );
 };
 
 export default Header;
